@@ -7,7 +7,7 @@ from django.db import models
 from typing import Callable
 
 from . import Message, Exception
-from .Models import SmartModel
+from .db.models import SmartModel
 
 
 class BaseModelSerializer(serializers.ModelSerializer):

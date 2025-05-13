@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from datetime import timedelta, datetime
-from ..utils import QueryParams
+from . import QueryParams
 import functools
 
 import csv, json

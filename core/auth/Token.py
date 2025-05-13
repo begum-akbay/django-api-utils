@@ -1,7 +1,7 @@
 from django.conf import settings
 from rest_framework_simplejwt.tokens import RefreshToken
 import uuid, secrets
-from . import Constants
+from core import Constants
 
 COOKIE_AUTH_DATA = {
     "samesite": "None",

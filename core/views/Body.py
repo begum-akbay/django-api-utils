@@ -1,6 +1,6 @@
 from rest_framework import status
 
-from . import Message, Exception as CustomException
+from core import Message, Exception as CustomException
 
 
 def get(request, key, raise_exception=False):

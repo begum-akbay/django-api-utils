@@ -1,4 +1,4 @@
-from . import DateUtils, Exception as CustomException
+from core import DateUtils, Exception as CustomException
 
 
 def get(request, key, raise_exception=False):

@@ -7,7 +7,8 @@ from rest_framework.exceptions import APIException
 from django.db import transaction
 
 
-from . import Message, QueryParams, Export
+from core import Message
+from . import QueryParams, Export
 
 
 class SmartAPIView(APIView):
